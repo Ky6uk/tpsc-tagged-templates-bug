@@ -4,7 +4,7 @@ const createStyledComponentsTransformer = require('typescript-plugin-styled-comp
 const styledComponentsTransformer = createStyledComponentsTransformer();
 
 module.exports = {
-  mode: 'production',
+  mode: 'development',
   entry: './index.tsx',
 
   output: {
